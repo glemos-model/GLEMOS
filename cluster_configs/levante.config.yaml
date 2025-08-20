@@ -1,0 +1,4 @@
+CLUSTER_DATA_ROOT : /scratch/b/b382286
+FC : /home/b/b382286/.local/solstudio/developerstudio12.6/bin/f95
+NETCDFF_SRC : /home/b/b382286/glemos/GLEMOS_WorkSpace_old/netcdf-fortran-4.5.3
+NETCDFF_LIB : /sw/spack-levante/netcdf-fortran-4.5.3-l2ulgp/lib

@@ -1,0 +1,29 @@
+!****** Configuration file of source-receptor matrix ******! 
+
+! Number of anthropogenic sources
+Ant sources number: 51
+
+! Codes of anthropogenic sources
+Ant sources codes: AL, AM, AT, AZ, BA, BE, BG, BY, CH, CY, CZ, DE, DK, EE, ES, FI, FR, GB, GE, GR, HR, HU, IE, IS, IT, KY, KZ, LI, LT, LU, LV, MC, MD, ME, MK, MT, NL, NO, PL, PT, RO, RS, RU, SE, SI, SK, TJ, TM, TR, UA, UZ   
+
+! Number of natural sources
+Nat sources number: 0
+
+! Codes of natural sources
+Nat sources codes: 
+
+! Number of boundary sources
+Bnd sources number: 1
+
+! Codes of boundary sources
+Bnd sources codes: BND
+
+!-----------------------------------------------------------
+
+! Number of receptors
+Receptors number: 26
+
+! Codes of receptors
+Receptors codes: AT, BE, BY, DK, EE, CZ, FI, FR, DE, HU, IT, LV, LT, SK, LI, LU, MD, NL, NO, PL, RO, RU, SI, SE, CH, UA
+
+!----------------------------------------------------------

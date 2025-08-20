@@ -1,0 +1,14 @@
+#!/usr/bin/bash
+#SBATCH --job-name=glemos
+#SBATCH --output=glemos_run.%j.out
+#SBATCH --partition=long
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --mem-per-cpu=5G
+#SBATCH --time=14-00:00:00
+#SBATCH --mail-type=FAIL
+
+module purge
+module load netCDF-Fortran/4.6.0-gompi-2022a
+
+srun run.GLEMOS

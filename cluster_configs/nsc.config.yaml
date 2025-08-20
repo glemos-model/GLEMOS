@@ -1,0 +1,4 @@
+CLUSTER_DATA_ROOT : /ceph/projects/ijs-msce
+FC : /ceph/projects/ijs-msce/Software/solstudio/12.6/bin/f95
+NETCDFF_SRC : /ceph/projects/ijs-msce/Software/netcdf-fortran-4.6.1
+NETCDFF_LIB : /ceph/projects/ijs-msce/.local/netcdf-fortran/4.6.1/lib

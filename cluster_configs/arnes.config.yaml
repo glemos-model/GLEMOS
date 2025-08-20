@@ -1,0 +1,4 @@
+CLUSTER_DATA_ROOT : /d/hpc/projects/MSC_E
+FC : /d/hpc/projects/MSC_E/Software/solstudio/12.6/bin/f95
+NETCDFF_SRC : /d/hpc/projects/MSC_E/Software/netcdf-fortran-4.6.0
+NETCDFF_LIB : /cvmfs/sling.si/modules/el7/software/netCDF-Fortran/4.6.0-gompi-2022a/lib
