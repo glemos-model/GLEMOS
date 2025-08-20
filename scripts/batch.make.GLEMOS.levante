@@ -1,0 +1,17 @@
+#!/usr/bin/bash
+#SBATCH --job-name=glemos_make
+#SBATCH --output=glemos_make.%j.out
+#SBATCH --partition=shared
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --time=00:30:00
+#SBATCH --mail-type=FAIL
+#SBATCH --account=gg0305
+
+module purge
+module load netcdf-fortran/4.5.3-gcc-11.2.0
+
+export LD_LIBRARY_PATH="/sw/spack-levante/netcdf-fortran-4.5.3-l2ulgp/lib:$LD_LIBRARY_PATH"
+export LD_LIBRARY_PATH="$HOME/.local/usr/lib:$HOME/.local/usr/lib64:$LD_LIBRARY_PATH"
+
+srun ./make.GLEMOS

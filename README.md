@@ -1,14 +1,10 @@
 ## Description
 
-This repository is a part of the GLEMOS WorkSpace and contains the sourse code for the GLEMOS model including scientific routines for modeling mercury (Hg), particle-bound heavy metals (Cd, Pb) and persistent organic pollutants (POPs). The current stable release is 2.2.2.
-
-## The GLEMOS User Manual
-
-A copy of 'The_GLEMOS_User_Manual.pdf' can be found in the root directory of each of the four GLEMOS repositories.
+This repository is a part of the GLEMOS WorkSpace and contains the GLEMOS model including managing scripts, configuration and properties files and scientific routines for modeling mercury (Hg), particle-bound heavy metals (Cd, Pb) and persistent organic pollutants (POPs).
 
 ## About GLEMOS
 
-Global modeling framework GLEMOS is a multi-scale multi-pollutant simulation platform developed for operational and research applications within the EMEP programme [Tarrason and Gusev, 2008; Travnikov et al., 2009, Jonson and Travnikov, 2010, Travnikov and Jonson, 2011]. The framework allows simulations of dispersion and cycling of different classes of pollutants (e.g. heavy metals and persistent organic pollutants) in the environment with a flexible choice of the simulation domain (from global to local scale) and spatial resolution. In addition, GLEMOS supports multi-media description of the pollutants cycling in the environment. A modular architecture of the modeling system allows flexible configuration of the model set-up for particular research tasks and pollutant properties. More infromation about the model can be found on the MSC-E website https://www.msceast.org/j-stuff/glemos.
+Global modeling framework GLEMOS is a multi-scale multi-pollutant simulation platform developed for operational and research applications within the EMEP programme [Tarrason and Gusev, 2008; Travnikov et al., 2009, Jonson and Travnikov, 2010, Travnikov and Jonson, 2011]. The framework allows simulations of dispersion and cycling of different classes of pollutants (e.g. heavy metals and persistent organic pollutants) in the environment with a flexible choice of the simulation domain (from global to local scale) and spatial resolution. In addition, GLEMOS supports multi-media description of the pollutants cycling in the environment. A modular architecture of the modeling system allows flexible configuration of the model set-up for particular research tasks and pollutant properties. More infromation about the model can be found on the MSC-E website https://msc-east.org.
 
 ## Model evaluation
 
@@ -31,19 +27,11 @@ The sample input data are separated into several storages. Each piece of data is
 
 This sample dataset allows to test only the basic research functionality of the model. Generally, GLEMOS allows application on different geographical scales with various spatial resolutions. The base model grid on a global scale has horizontal resolution 1°×1°. The standard regional model domain covers the EMEP region (30°N-82°N, 30°W-90°E) with a spatial grid that has a changeable resolution down to 0.1°×0.1°. In addition, a variety of smaller domains can be used for national scale case studies. MSC-E suggest users prepare input data for their research tasks themselves in a format similar to provided sample. MSC-E is ready to provide users with advice and assistance.
 
-The sample dataset that comes this the model covers a short time period (January 2020) and is an example of input data for the model. It includes data for monthly modeling of Hg, Cd, Pb and BaP on global 1°x1° and on regional 04°x04° scales (the regional domain covers the EMEP region). Detailed description of these data as well as instructions for organizing local storage can be found in the chapter 5 of the GLEMOS User Manual. 
-
-## Configuring of model runs
-
-Simulation management and configuration as well as the desctiption of main features can be found in sections 6 and 1 of the GLEMOS User Manual, respectively.
-
-## The output structure
-
-The model supports output in netcdf4 and txt formats. More information can be found in section 7.2 of the GLEMOS User Manual.
+The sample dataset that comes with the model covers a short time period (January 2020) and is an example of input data for the model. It includes data for monthly modeling of Hg, Cd, Pb and BaP on global 1°x1° and on regional 04°x04° scales (the regional domain covers the EMEP region).  
 
 ## Citation
 
-GLEMOS/MSC-E (2022) Global EMEP Multi-media Modeling System (GLEMOS). https://www.msceast.org/j-stuff/glemos
+GLEMOS/MSC-E (2025) Global EMEP Multi-media Modeling System (GLEMOS). https://github.com/glemos-model/GLEMOS
 
 ## References
 

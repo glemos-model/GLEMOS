@@ -1,0 +1,29 @@
+!****** Configuration file of source-receptor matrix ******! 
+
+! Number of anthropogenic sources
+Ant sources number: 12
+
+! Codes of anthropogenic sources
+Ant sources codes: A_PPr, B_Ind, C_OSC, D_Fug, E_Slv, F_RTr, G_Shp, H_Avi, I_OfR, J_Wst, L_AOt, M_Oth
+
+! Number of natural sources
+Nat sources number: 0
+
+! Codes of natural sources
+Nat sources codes: 
+
+! Number of boundary sources
+Bnd sources number: 1
+
+! Codes of boundary sources
+Bnd sources codes: BND
+
+!-----------------------------------------------------------
+
+! Number of receptors
+Receptors number: 123
+
+! Codes of receptors
+Receptors codes: NO1, NO2, NO3, NO4, NO5, NO6, NO7, NO8, NO9, NO10, NO11, NO12, NO13, NO14, NO15, NO16, NO17, NO18, NO19, AT1, AT2, AT3, AT4, AT5, AT6, AT7, AT8, AT9, AT10, AT11, AT12, AT13, AT14, AT15, AT16, AT17, AT18, AT19, AT20, AT21, AT22, AT23, AT24, AT25, AT26, GE1, GE2, GE3, GE4, GE5, GE6, GE7, GE8, CH1, CH2, CH3, CH4, CH5, CH6, CH7, CH8, CH9, CH10, CH11, CH12, CH13, CH14, CH15, CH16, CH17, CH18, CH19, CH20, CH21, CH22, IE1, IE4, IE7, ES1, ES2, ES3, ES4, ES5, ES6, ES7, ES8, ES9, ES10, ES11, ES12, ES13, ES14, ES15, ES16, ES17, ES18, ES19, ES20, ES21, ES22, ES23, ES24, ES25, SE1, SE2, SE3, SE4, SE5, SE6, SE7, SE8, SE9, SE10, SE11, SE12, SE13, SE14, SE15, SE16, SE17, SE18, SE19, SE20
+
+!----------------------------------------------------------

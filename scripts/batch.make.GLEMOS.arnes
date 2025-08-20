@@ -1,0 +1,13 @@
+#!/usr/bin/bash
+#SBATCH --job-name=glemos_make
+#SBATCH --output=glemos_make.%j.out
+#SBATCH --partition=long
+#SBATCH --ntasks=1 
+#SBATCH --nodes=1
+#SBATCH --time=00:30:00
+#SBATCH --mail-type=FAIL
+
+module purge
+module load netCDF-Fortran/4.6.0-gompi-2022a
+
+srun make.GLEMOS
